@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    tools:context=".MainActivity">
+
+    <!--Text View -->
+    <TextView
+        android:id="@+id/guideText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Source Text:"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/black"
+        />
+
+    <!--edit text to enter your input-->
+    <EditText
+        android:id="@+id/idEdtLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:hint="Enter your name to translate"
+        android:minHeight="48dp"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+    <!-- Image for Mic -->
+    <!--ImageView
+        android:id="@+id/idIVMic"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_mic"
+        android:layout_gravity="center"
+        app:tint="@color/black" / -->
+
+    <!--dropdown spinner to select language-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/idnewText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+
+        <Spinner
+            android:id="@+id/idToSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+    </LinearLayout>
+
+    <!--button to translate language of the input text-->
+    <Button
+        android:id="@+id/idBtnTranslateLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Translate language" />
+
+    <!-- Speach to Text Feature to be added-->
+
+    <!--text view to display the translated text-->
+    <TextView
+        android:id="@+id/idTVTranslatedLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Translated Text "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="20sp" />
+
+</LinearLayout>
