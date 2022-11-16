@@ -202,6 +202,3 @@ The main objectives were also fulfilled as the UI is easy to use and also Beauti
 - Link to the Presentation : https://docs.google.com/presentation/d/1nbB6OkQARDjqiui5r7AC6tvbRQRy-od2_zzsz1DYUd0/edit?usp=sharing
 - Link to project Report : https://github.com/Abhi6722/language-translator/blob/main/github-images/Project%20Report%20(language-translator-app).pdf
 - Link to project PPT : https://github.com/Abhi6722/language-translator/blob/main/github-images/PPT%20(language-translator-app).pdf
-
-#   L a n g u a g e - T r a n s l a t o r  
- 
